@@ -1,0 +1,122 @@
+/* Umumiy resetlar va box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Xizmatlar bo'limi uchun uslublar */
+.services {
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 1200px;
+}
+
+.services h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.service {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-left: 5px solid #0056b3;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.service h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #0056b3;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .services {
+        padding: 30px 15px;
+    }
+
+    .services h1 {
+        font-size: 24px;
+    }
+
+    .service h2 {
+        font-size: 20px;
+    }
+
+    .service p {
+        font-size: 14px;
+    }
+}
+
+
+
+
+.logoa {
+ 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
